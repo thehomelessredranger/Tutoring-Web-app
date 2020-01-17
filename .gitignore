@@ -1,0 +1,6 @@
+/.metadata/
+.gradle/
+*.DS_Store
+/node_modules/
+.gradle/
+build/

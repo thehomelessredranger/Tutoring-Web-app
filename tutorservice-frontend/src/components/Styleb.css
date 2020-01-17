@@ -1,0 +1,80 @@
+/*-----NavigationBar--------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .navbar-brand img {
+    height: 70px;
+    padding-left: 30px;
+  }
+
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+
+  .navbar-nav a {
+    float: right;
+    text-align: left;
+  }
+
+  #nav-bar ul li a:hover {
+    color: #007bff !important;
+  }
+
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar-toggler {
+    border: non !important;
+  }
+
+  .nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  /*-------Login Form-------*/
+  .jumbotron {
+    height: 730px;
+  }
+  .form-group {
+    width: 600px;
+    height: 65px;
+  }
+
+  .line {
+    border-left: 6px solid black;
+    height: 550px;
+    align-self: center;
+    width: 50px;
+  }
+
+  /*-------Tutor Menu-------*/
+  .menu-buttons {
+    text-align: left;
+  }
+
+  .myProfile {
+    text-align: center;
+  }
+
+  /*---- Course Menu -----*/
+  .rate {
+    align-content: center;
+  }
+
+  /*---- footer ----*/
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }

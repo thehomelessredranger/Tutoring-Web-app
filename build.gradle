@@ -1,0 +1,31 @@
+apply plugin: 'java'
+
+apply plugin: 'application'
+
+mainClassName='BackendApplication'
+
+repositories{
+	mavenCentral()
+}
+task stage () {
+	dependsOn ':Backend:assemble'
+}
+
+dependencies {
+	implementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
+}
+
+sourceSets{
+	main{
+		java {	srcDir 'Backend/src/main/ca/mcgill/ecse32'}
+	}
+
+	test{
+		java {	srcDir 'Backend/src/test/ca/mcgill/ecse32'}
+	}
+}
+
+task compile(type: JavaCompile) {
+  classpath = sourceSets.main.compileClasspath
+  classpath += sourceSets.test.runtimeClasspath
+}

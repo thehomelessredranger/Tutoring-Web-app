@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>project-group-23</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>ca</name>
+			<type>2</type>
+			<location>/home/antler/Desktop/ECSE 321/project-group-23/Backend/src/main/java/ca</location>
+		</link>
+		<link>
+			<name>src-gen</name>
+			<type>2</type>
+			<location>/home/antler/Desktop/ECSE 321/project-group-23/Backend/src/main/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyTutor</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="courses_h">Courses</string>
+    <string name="availabilities_h">Availabilities</string>
+    <string name="requests_h">Requests</string>
+    <string name="back">Back</string>
+
+</resources>
